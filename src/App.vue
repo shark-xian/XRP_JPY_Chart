@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h1>[Bitbank] Realtime data</h1>
-    <p class="text-right">※当ページはBitbank提供のAPIデータを利用しています</p>
+    <p class="text-right">本页面使用Bitbank提供的API数据。</p>
     <p class="text-right">
       <a href="https://twitter.com/tarotaro080808" target="_blank">tarotaro080808</a>
     </p>
@@ -28,7 +28,7 @@ export default {
   name: 'app',
   data: function() {
     return {
-      // 配信データ格納用
+
       items: [],
       latestItem: {}
     }

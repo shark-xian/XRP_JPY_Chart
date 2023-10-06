@@ -1,8 +1,8 @@
 # Bitbank realtime data
-BitbankのAPIデータを基にデプスチャート、歩み値を表示
+根据Bitbank API数据显示深度图和步长值
 
 ## web site url
-XRP/JPYに対応しています。
+与瑞波币/日元兼容。
 https://bb-realtimedata.firebaseapp.com/
 
 ## Require
@@ -12,8 +12,8 @@ https://bb-realtimedata.firebaseapp.com/
 
 
 ## Project setup
-必要な依存関係が不足している可能性があります。
-問題があればご連絡ください。
+可能缺少所需的依赖项。
+如果您有任何问题，请联系我们。
 
 copy `.env.example` to `.env` then set gaid if you need google analytics.
 ```
@@ -21,14 +21,14 @@ yarn install
 ```
 
 ### Compiles and hot-reloads for development
-開発マシン環境の都合上、ポート4000設定としております。
+由于开发机器环境的原因，设置了4000端口。
 ```
 yarn run serve
 ```
 
 ### Compiles and minifies for production
-Firebase Hostingなど、お好きな静的ホスティングサービスにデプロイが可能です。
-ビルド後、distディレクトリをターゲットとします。
+部署到您最喜欢的静态托管服务，例如 Firebase Hosting。
+构建后，定位到 dist 目录。
 ```
 yarn run build
 ```

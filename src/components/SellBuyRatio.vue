@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="heading">取引ボリューム比率</p>
+    <p class="heading">交易量比例</p>
     <progress-bar :sellRatio="sell.ratio" :buyRatio="buy.ratio"/>
     <p class="reset-ratio align-right" @click="resetRatio">リセット</p>
   </div>

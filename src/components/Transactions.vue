@@ -6,8 +6,8 @@
           <th colspan="3"><p class="heading">歩み値</p></th>
         </tr>
         <tr>
-          <th>時間</th>
-          <th>価格</th>
+          <th>时间</th>
+          <th>价格</th>
           <th>数量</th>
         </tr>
         <tr v-for="item in items" v-bind:key="item.transaction_id">
@@ -31,7 +31,7 @@ export default {
     }
   },
   filters: {
-    // タイムフォーマット
+
     time: function(value) {
       return moment(value).format('HH:mm:ss')
     }

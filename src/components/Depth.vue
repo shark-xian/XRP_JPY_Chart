@@ -1,8 +1,8 @@
 <template>
   <div>
-    <p class="heading">デプスチャート</p>
+    <p class="heading">深度图</p>
     <div class="settings">
-      <p>自動更新タイミング</p>
+      <p>自动更新定时</p>
       <div
         v-for="settingTime in settingTimes"
         :key="settingTime.id"
@@ -42,7 +42,7 @@ export default {
         { id: 't1', label: '10秒', value: 10000 },
         { id: 't2', label: '30秒', value: 30000 },
         { id: 't3', label: '1分', value: 60000 },
-        { id: 't4', label: '自動更新しない', value: 'off' }
+        { id: 't4', label: '自动更新定时', value: 'off' }
       ]
     }
   },
@@ -150,7 +150,7 @@ export default {
     series2.tooltipText =
       'Ask: [bold]{categoryX}[/]\nTotal volume: [bold]{valueY}[/]\nVolume: [bold]{asksvolume}[/]'
 
-    // ボリューム（現在未使用）
+
     // let series3 = chart.series.push(new am4charts.ColumnSeries());
     // series3.dataFields.categoryX = "value";
     // series3.dataFields.valueY = "bidsvolume";

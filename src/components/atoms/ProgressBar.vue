@@ -1,13 +1,13 @@
 <template>
   <div class="progress">
     <div class="progress-bar progress-bar-buy" :style="getWidth(buyRatio)">
-      買い
+      买
       <br>
       {{ buyRatio | formatRatio }}
       <span class="sr-only"></span>
     </div>
     <div class="progress-bar progress-bar-sell" :style="getWidth(sellRatio)">
-      売り
+      卖
       <br>
       {{ sellRatio | formatRatio }}
       <span class="sr-only"></span>
